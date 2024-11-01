@@ -1,0 +1,12 @@
+parameters:
+    level: 5
+    # Only use folders defined in the require section of composer.json
+    scanDirectories:
+        - vendor/wpdesk/wp-notice
+        - vendor/stoutlogic/acf-builder
+        - vendor/php-stubs
+        - lib
+    paths:
+        - src
+        - templates
+        - visit-notifications.php
